@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}   
+
+body {
+    background-color: #e6f3ff;
+    overflow-x: hidden;
+}
+
+section {
+    padding: 28px;
+}
+
+.btn-default {
+    border: 1px solid #000000; 
+    background-color: #ffffff; 
+    color: #000000; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    padding: 10px 14px;
+    font-weight: 600;
+    box-shadow: 0px 0px 10px 2px rgba(205, 205, 205, 0.1);
+    cursor: pointer;
+    transition: background-color .3s ease, color .3s ease, border-color .3s ease;
+}
+
+
+
+.btn-default1 {
+    border: 1px solid #000000; 
+    background-color: #ffffff; 
+    color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    padding: 10px 14px;
+    font-weight: 600;
+    box-shadow: 0px 0px 10px 2px rgba(205, 205, 205, 0.1);
+    cursor: pointer;
+    width: 200px;
+    transition: background-color .3s ease, color .3s ease, border-color .3s ease;
+}
+
+.btn-default1:hover {
+    background-color: #94c9ff; 
+    color: #000000; 
+    border-color: #000000; 
+}
+
+.btn-default:hover {
+    background-color: #94c9ff; 
+    color: #000000; 
+    border-color: #000000;
+}
+
+.social-media-buttons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px; 
+    height: 60px; 
+    background-color: #ffffff; 
+    color: #000000;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    text-decoration: none; 
+    
+}
+
+.social-media-buttons a:hover {
+    background-color: #94c9ff; 
+    color: #ffffff; 
+    box-shadow: 0px 0px 12px 8px rgba(0, 0, 0, 0.1);
+}
+
+#news {
+    background-color: #e6f3ff; 
+    padding: 28px;
+}
+
+.shape3 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(to right, #ff7e5f, #feb47b); 
+    clip-path: polygon(0 0, 100% 0, 100% 50%, 0 100%); 
+    z-index: -1;
+}
+
+
+.news-title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 16px;
+    margin-left: 44%;
+}
+
+.news-title5 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 16px;
+    margin-left: 35%;
+}
+
+#ilustration1 {
+    width: 210px;
+    height: 200px;
+}
+
+#ilustration2 {
+    width: 210px;
+    height: 200px;
+}
+
+#ilustration3 {
+    width: 210px;
+    height: 200px;
+}
+
+.news-item {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.news-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.news-item p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.news-item a {
+    font-size: 0.9rem;
+    color: #000000;
+    text-decoration: none;
+}
+
+.news-item a:hover {
+    text-decoration: underline;
+}
+
+.novo-h31 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    margin-left: 23%;
+}
+
+.novo-h32 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    margin-left: 23%;
+}
+
+.novo-h33 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    margin-left: 18%;
+}
+
+.novo-p1 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    margin-left: 3%;
+}
+
+.novo-p2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    margin-left: 3%;
+}
+
+.novo-p3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    margin-left: 3%;
+}
+
+.news-item1 {
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 20px;
+    width: 40%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    margin-left: 30%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.news-item1:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}

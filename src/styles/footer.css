@@ -1,0 +1,29 @@
+footer {
+    background-color: #ffdf95;
+    height: 150px;
+}
+
+#footer_items {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 8% 10px 8%;
+    align-items: center;
+}
+
+#copyright {
+    color: #1d1d1d;
+    font-weight: 500;
+    margin-top: 2%;
+}
+
+.social-media-buttons {
+    margin-top: 3%;
+    font-size: 24px;
+}
+
+@media screen and (max-width: 768px) {
+    #footer_items {
+        flex-direction: column;
+        gap: 20px;
+    }
+}

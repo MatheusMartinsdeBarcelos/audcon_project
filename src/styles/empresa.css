@@ -1,0 +1,77 @@
+#menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    min-height: 50vh;
+    overflow-x: hidden;
+}
+
+header {
+    position: fixed;
+    z-index: 1000;
+    background: linear-gradient(to right, #ffffff, #cbeeff); 
+    box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
+}
+
+#dishes {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 32px;
+}
+
+.company-description {
+    font-size: 1.3rem; 
+    max-width: 800px;
+    margin-bottom: 40px;
+    text-align: left;
+    margin-top: -40px;
+}
+
+.mission,
+.vision {
+    max-width: 800px;
+    margin: 0 auto 40px;
+    text-align: left;
+}
+
+.section-title3 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #000000; 
+}
+
+.section-subtitle3 {
+    font-size: 2.0rem;
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+.section-p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+    color: #000000;
+}
+
+.about-title {
+    font-size: 2.0rem;
+    margin-bottom: 10px;
+    margin-top: -30px;
+    color: #000000;
+}
+
+.about-description {
+    font-size: 1.3rem;
+    color: #000000;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+#text-p {
+    font-size: 1.3rem;
+    color: #000000;
+}

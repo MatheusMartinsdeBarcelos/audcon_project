@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="src/styles/styles.css">
+    <link rel="stylesheet" href="src/styles/header.css">
+    <link rel="stylesheet" href="src/styles/home.css"> 
+    <link rel="stylesheet" href="src/styles/services.css">
+    <link rel="stylesheet" href="src/styles/empresa.css">
+    <link rel="stylesheet" href="src/styles/calender.css">
+    <link rel="stylesheet" href="src/styles/curso.css">
+    <link rel="stylesheet" href="src/styles/contato.css">
+    <link rel="stylesheet" href="src/styles/footer.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>Audcon</title>
+</head>
+<body>
+   <header>
+    <nav id="navbar"> 
+        <nav id="navbar">
+            <img src="src/images/FigmaBasics-logo.png" alt="" id="logo">
+
+            <ul id="nav_list">
+                <li class="nav-item active">
+                    <a href="index.html">Início</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="empresa.html">Sobre</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="services.html">Serviços</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="calendar.html">Calendário</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="contato.html">Contato</a>
+                </li>
+
+                <li class="link-admin">
+                    <a href="admin.html">Área restrita</a>
+                </li>
+            </ul>
+
+            <button id="mobile_btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+
+        <div id="mobile_menu">
+            <ul id="nav_list">
+                <li class="nav-item active">
+                    <a href="index.html">Início</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="empresa.html">Sobre</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="services.html">Serviços</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="calendar.html">Calendário</a>
+                </li>
+               
+                <li class="nav-item">
+                    <a href="contato.html">Contato</a>
+                </li>
+            </ul>
+
+            <button class="btn-default">
+                Ver serviços
+            </button>
+        </div>
+    </header>
+
+    <main id="content">
+        <section id="home">
+            <div class="shape"></div>
+                <div id="cta">
+                    <h1 class="title">
+                        Excelência em
+                        <span>Contabilidade Pública</span>
+                    </h1>
+
+                    <p class="description">
+                        Especializados em oferecer soluções contábeis de alta qualidade
+                    </p>
+
+                    <div id="cta_buttons">
+                        <a href="#" class="btn-default">
+                            Ver Serviços            
+                        </a>
+                        
+                        <a href="https://wa.me/62982603635?" id="phone-button">
+                            <button class="btn-default">
+                                <i class="fa-solid fa-phone"></i>
+                                (62)98260-3635
+                            </button>
+                        </a>
+                    </div>
+                    
+                    <div class="social-media-buttons">
+                        <a href="https://w.app/bjHiPL">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+                <div id="banner">
+                    <img src="src/imagens/closeup-economist-using-calculator-while-going-through-bills-taxes-office.jpg" alt="">
+                </div>   
+        </section>  
+        <div class="slider-container">
+            <h2 class="service-subtitle4">Eventos e Notícias</h2>
+            <div class="slider">
+                <div class="slide">
+                    <a href="new.html" target="_blank">
+                        <img src="src/imagens/Design sem nome.png" alt="Slide 1">
+                    </a>
+                </div>
+                <div class="slide">
+                    <a href="new2.html" target="_blank">
+                        <img src="src/imagens/Design sem nome.png" alt="Slide 2">
+                    </a>
+                </div>
+                <div class="slide">
+                    <a href="new3.html" target="_blank">
+                        <img src="src/imagens/Design sem nome.png" alt="Slide 3">
+                    </a>
+                </div>
+            </div>
+            <div class="dot-container">
+                <span class="dot" onclick="currentSlide(0)"></span>
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+            </div>
+
+        </div>
+         <div class="cta_buttons">
+                <a href="newAll.html" class="btn-default3">Ver mais</a>
+        </div>
+
+        <section id="services"> 
+            <div class="shape2"></div>
+            <div id="services_content">
+                <h2 class="service-subtitle1">Nossos Serviços</h2>
+                <p id="text-p1">Oferecemos uma gama completa de serviços jurídicos para atender às necessidades dos nossos clientes.</p>
+                <div class="services-container">
+                    <div class="service-item">
+                        <h3>Contas de Gestão</h3>
+                        <p>fornecer uma visão detalhada e precisa das finanças de uma organização, permitindo uma avaliação clara de sua situação financeira e a tomada de decisões informadas para o futuro.</p>
+                    </div>
+                    <div class="service-item">
+                        <h3>Contas de Governo</h3>
+                        <p>Orientação especializada em questões legais e jurídicas para empresas e indivíduos.</p>
+                    </div>
+                </div>
+                <div class="cta_buttons">
+                    <a href="services.html" class="btn-default2">Ver todos os serviços</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <section id="news">
+        <div class="shape3"></div>
+        <div id="novo_content">
+            <h2 class="news-title5">Por Que Escolher a Audcon?</h2>
+            <div class="news-item1">
+                <h3 class="novo-h31">Experiência e Expertise</h3>
+                <p class="novo-p1">Nossa equipe possui anos de experiência no setor contábil, oferecendo conhecimento e habilidades especializadas para resolver qualquer desafio financeiro.</p>
+            </div>
+            <div class="news-item1">
+                <h3 class="novo-h32">Soluções Personalizadas</h3>
+                <p class="novo-p2">Entendemos que cada empresa é única. Por isso, desenvolvemos soluções contábeis adaptadas às suas necessidades específicas.</p>   
+            </div>
+
+            <div class="news-item1">
+                <h3 class="novo-h32">Transparência e Confiança</h3>
+                <p class="novo-p3">Priorizamos a transparência em todas as nossas interações, garantindo que você tenha total confiança nas informações e recomendações fornecidas.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div id="footer_items">
+            <span id="copyright">
+                Copyright &copy 2014 Audcon - Excelência em Contabilidade Pública
+            </span>
+
+            <div class="social-media-buttons">
+                <a href="https://w.app/bjHiPL">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+            </div>
+            <div></div>
+            
+        </div>
+    </footer>
+    
+   <script src="src/javascript/script.js"></script>
+</body>
+</html>
