@@ -75,3 +75,23 @@ header {
     font-size: 1.3rem;
     color: #000000;
 }
+
+@media screen and (max-width: 1170px) {
+    #menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+        min-height: 50vh;
+        overflow-x: hidden;
+        margin-top: 30%;
+    }
+
+    header {
+        position: fixed;
+        z-index: 1000;
+        background: linear-gradient(to right, #ffffff, #cbeeff); 
+        box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
+        margin-top: -30%;
+    }
+}

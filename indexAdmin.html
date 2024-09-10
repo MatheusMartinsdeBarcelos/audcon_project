@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="src/styles/styles.css">
+    <link rel="stylesheet" href="src/styles/header.css">
+    <link rel="stylesheet" href="src/styles/adminTela.css">
+    <title>Audcon - Admin</title>
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <nav id="navbar"> 
+            <img src="src/images/FigmaBasics-logo.png" alt="Logo" id="logo">
+    
+            <ul id="nav_list">
+                <li class="nav-item">
+                    <a href="index.html">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="empresa.html">Sobre</a>
+                </li>
+                <li class="nav-item">
+                    <a href="services.html">Serviços</a>
+                </li>
+                <li class="nav-item">
+                    <a href="calendar.html">Calendário</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contato.html">Contato</a>
+                </li>
+            </ul>
+    
+            <button id="mobile_btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+    
+        <div id="mobile_menu">
+            <ul id="nav_list">
+                <li class="nav-item">
+                    <a href="index.html">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="empresa.html">Sobre</a>
+                </li>
+                <li class="nav-item">
+                    <a href="services.html">Serviços</a>
+                </li>
+                <li class="nav-item">
+                    <a href="calendar.html">Calendário</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contato.html">Contato</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <div class="admin-panel">
+            <h1>Painel de Administração</h1>
+            <form id="admin-form">
+                <div class="form-group">
+                    <label for="currentjob">Título</label>
+                    <input type="text" id="currentjob" name="currentjob" placeholder="Título do post">
+                </div>
+        
+                <div class="form-group">
+                    <label for="comment">Descrição</label>
+                    <textarea id="comment" name="comment" placeholder="Descrição do post"></textarea>
+                </div>
+        
+                <div class="form-group">
+                    <label for="image">Insira a sua imagem:</label>
+                    <input type="file" id="image" name="image">
+                </div>
+        
+                <div class="form-group">
+                    <label for="date-post">Data</label>
+                    <input type="date" id="date-post" name="date">
+                </div>
+        
+                <div class="form-group">
+                    <input type="submit" value="Enviar" class="btn-submit">
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <div id="footer_items">
+            <span id="copyright">
+                Copyright &copy 2024 Audcon - Excelência em Contabilidade Pública
+            </span>
+
+            <div class="social-media-buttons">
+                <a href="https://wa.me/62982603635?">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="src/javascript/script.js"></script>
+</body>
+</html>

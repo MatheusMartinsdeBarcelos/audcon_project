@@ -53,7 +53,7 @@
     max-width: 600px;
     margin: 0 auto;
     padding: 20px;
-    margin-top: 140px;
+    margin-top: -5%;
 }
 
 #contact-form {
@@ -79,7 +79,7 @@
     resize: vertical;
 }
 
-#submit-button {
+button {
     border: none;
     background-color: #ffffff;
     color: #000000;
@@ -89,9 +89,10 @@
     cursor: pointer;
     transition: background-color .3s ease, color .3s ease, border-color .3s ease;
     font-weight: 600;
+    margin-top: 3%;
 }
 
-#submit-button:hover {
+button:hover {
     background-color: #12809e;
 }
 
@@ -109,55 +110,61 @@
     }
 }
 
-#footer1 {
-    background-color: #ffdf95;
-    height: 150px;
-    width: 100000000%;
-    margin-bottom: -26px;
+footer {
+    background-color: #ffdf95; 
+    height: 150px; 
+    width: 100%;
+    padding: 20px 0; 
+    margin-top: 10%;
 }
 
-#footer_items1 {
+#footer_items {
     display: flex;
-    justify-content: space-between;
-    padding: 0px 8% 10px 8%;
-    align-items: center;
-
+    justify-content: space-between; 
+    padding: 0px 8%; 
+    align-items: center; 
 }
 
 #copyright {
     color: #1d1d1d;
-    font-weight: 500;
-    margin-top: 2%;
+    font-weight: 500; 
+    margin-top: 2%; 
 }
 
 .social-media-buttons {
-    margin-top: 3%;
-    font-size: 24px;
+    display: flex;
+    gap: 16px; 
+    margin-top: 3%; 
+    font-size: 24px; 
+}
+
+.social-media-buttons a {
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    height: 60px;
+    background-color: #ffffff;
+    color: #000000; 
+    border: 2px solid #ffffff;
+    border-radius: 50%; 
+    text-decoration: none; 
+    transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.social-media-buttons a:hover {
+    background-color: #94c9ff; 
+    color: #ffffff;
+    box-shadow: 0px 0px 12px 8px rgba(0, 0, 0, 0.1); 
 }
 
 @media screen and (max-width: 768px) {
     #footer_items {
-        flex-direction: column;
-        gap: 20px;
+        flex-direction: column; 
+        gap: 20px; 
+        text-align: center;
+    }
+
+    .social-media-buttons {
+        justify-content: center;
     }
 }
-
-.social-media-buttons a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 60px; 
-    height: 60px; 
-    background-color: #ffffff; 
-    color: #000000; 
-    border: 2px solid #ffffff; 
-    border-radius: 50%; 
-    text-decoration: none; 
-}
-
-.social-media-buttons a:hover {
-    background-color: #94c9ff;
-    color: #ffffff;
-    box-shadow: 0px 0px 12px 8px rgba(0, 0, 0, 0.1);
-}
-
